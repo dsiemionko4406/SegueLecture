@@ -13,7 +13,9 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        Timer.scheduledTimer(withTimeInterval: 5.0, repeats: false) { (timer) in
+            self.performSegue(withIdentifier: "SegueToGreen", sender: nil)
+        }
     }
     
 

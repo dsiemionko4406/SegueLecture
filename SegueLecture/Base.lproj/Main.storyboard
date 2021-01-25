@@ -32,10 +32,10 @@
             </objects>
             <point key="canvasLocation" x="1133" y="56"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="Q0E-wK-mBp">
             <objects>
-                <viewController id="FNN-8d-tTX" sceneMemberID="viewController">
+                <viewController id="FNN-8d-tTX" customClass="SecondViewController" customModule="SegueLecture" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ynu-ow-5IA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,10 +43,29 @@
                         <viewLayoutGuide key="safeArea" id="I7f-NM-RFG"/>
                     </view>
                     <navigationItem key="navigationItem" id="8Tq-4s-pPt"/>
+                    <connections>
+                        <segue destination="Wiz-HT-ahD" kind="show" identifier="SegueToGreen" id="I0G-dv-uuL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7zD-LU-oor" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1832" y="56"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9M3-3K-GFH">
+            <objects>
+                <viewController id="Wiz-HT-ahD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ekz-VO-0b1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Ad0-Ma-dbG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JyT-Qf-vwY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6nu-Hi-tgd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2544" y="56"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vQs-Ci-qJq">
